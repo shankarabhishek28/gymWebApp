@@ -16,7 +16,7 @@ const Values = () => {
         </div>
         
         <div className="values_right">
-          <Section icon={GiCutDiamond} title="Values" />
+          <Section icon={<GiCutDiamond />} title="Values" />
           <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum expedita maiores incidunt repudiandae harum
             ipsam eligendi aperiam omnis totam, quisquam, sint odio vel, cumque magnam cum ex saepe explicabo corrupti.</p>
           <div className="values_wrapper">
