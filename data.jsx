@@ -1,5 +1,19 @@
 import React from 'react';
-import Avatar1 from './images/avatar1.jpg'
+import './images/avatar1.jpg'
+import './images/avatar2.jpg'
+import './images/avatar3.jpg'
+import './images/avatar4.jpg'
+import './images/avatar5.jpg'
+import './images/avatar6.jpg'
+import './images/avatar7.jpg'
+import './images/trainer6.jpg'
+import './images/trainer1.jpg'
+import './images/trainer2.jpg'
+import './images/trainer3.jpg'
+import './images/trainer4.jpg'
+import './images/trainer5.jpg'
+
+
 
 import {SiOpenaigym} from 'react-icons/si'
 
@@ -233,40 +247,86 @@ export const testimonials = [
         name: "Diana Ayi",
         quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
         job: "Student",
-        avatar: {Avatar1}
+        avatar: './images/avatar1.jpg'
     },
     {
         id: 2,
         name: "Daniel Vinyo",
         quote: "Harum quaerat hic consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum this and that odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
         job: "Software Egineer",
-        avatar: {Avatar1}
+        avatar: './images/avatar2.jpg'
     },
     {
         id: 3,
         name: "Edem Quist",
         quote: "Quaerat hic praesentium consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
         job: "University Lecturer",
-        avatar: {Avatar1}
+        avatar: './images/avatar3.jpg'
     },
     {
         id: 4,
         name: "Grace Lavoe",
         quote: "Cupiditate deleniti sint consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
         job: "Talking Parrot",
-        avatar: {Avatar1}
+        avatar: './images/avatar4.jpg'
     },
     {
         id: 5,
         name: "Nana Yaa Dankwa",
         quote: "Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
         job: "Pharmacist",
-        avatar: {Avatar1}
+        avatar: './images/avatar5.jpg'
     }
 ]
 
 
 
+
+
+export const trainers = [
+    {
+        id: 1,
+        image: './images/trainer1.jpg',
+        name: 'John Doe',
+        job: 'Aerobic Trainer',
+        socials: 'https://wa.me/+917817037017 '
+    },
+    {
+        id: 2,
+        image: './images/trainer2.jpg',
+        name: 'Daniel vinyo',
+        job: 'Speed Trainer',
+        socials: 'https://wa.me/+917817037017 '
+    },
+    {
+        id: 3,
+        image: './images/trainer3.jpg',
+        name: 'Edem Quist',
+        job: 'Flexibility Trainer',
+        socials: 'https://wa.me/+917817037017 '
+    },
+    {
+        id: 4,
+        image: './images/trainer4.jpg',
+        name: 'Shatta Wale',
+        job: 'Body Composition Trainer',
+        socials: 'https://wa.me/+917817037017 '
+    },
+    {
+        id: 5,
+        image: './images/trainer5.jpg',
+        name: 'Diana Ayi',
+        job: 'Circuit Trainer',
+        socials: 'https://wa.me/+917817037017 '
+    },
+    {
+        id: 6,
+        image: './images/trainer6.jpg',
+        name: 'Wayne Carter',
+        job: 'Physical Intelligence Trainer',
+        socials: 'https://wa.me/+917817037017 '
+    }
+]
 
 
 

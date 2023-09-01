@@ -7,13 +7,18 @@ import Plans from './src/pages/plans/plans'
 import Gallary from './src/pages/gallary/gallary'
 import NotFound from './src/pages/notFount/notFound'
 import Navbar from './src/components/Navbar'
-import { BrowserRouter,Routes,Route } from 'react-router-dom'
+import { BrowserRouter,Routes,Route, useLocation } from 'react-router-dom'
+import Footer from './src/components/Footer'
+import ScrollToTop from './src/components/ScrollToTop'
 
 export default function App(){
+
   return(
-    <BrowserRouter>
+    <BrowserRouter >
+    <ScrollToTop />
       <Navbar />
-      <Routes>
+      
+      <Routes >
         <Route index element={<Home />} />
         <Route path='about' element={<About />} />
         <Route path='gallery' element={<Gallary />} />
@@ -22,6 +27,7 @@ export default function App(){
         <Route path='contact' element={<Contact />} />
         <Route path='*' element={<NotFound />}/>
       </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }

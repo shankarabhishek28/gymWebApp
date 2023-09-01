@@ -6,6 +6,7 @@ import Values from '../../components/Values'
 import FAQs from '../../components/FAQs'
 import Testimonials from '../../components/Testimonials'
 
+
 const Home = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const Home = () => {
     <Values />
     <FAQs />
     <Testimonials />
+    
     </>
 
   )

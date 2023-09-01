@@ -20,6 +20,7 @@ nav {
 }
 .logo{
     width: 7rem;
+    display: block;
 }
 .nav_links{
     display: flex;
@@ -86,6 +87,8 @@ nav {
         opacity: 0;
         
     }
+    
+    
     .nav_links li:nth-child(2){
         animation-delay: 200ms ;
     }
