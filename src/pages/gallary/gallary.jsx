@@ -33,7 +33,7 @@ const Gallary = () => {
         <div className="container gallery_container">
           {resolvedImg.map((image, index) => (
             <article key={index}>
-              <img src={image} alt={index + 1} />
+            {image === null ? <h4>Loading...</h4> :<img src={image} alt={index + 1} /> }  
             </article>
           ))}
         </div>
