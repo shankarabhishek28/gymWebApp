@@ -1,11 +1,11 @@
 import React from 'react';
-import './images/avatar1.jpg'
-import './images/avatar2.jpg'
-import './images/avatar3.jpg'
-import './images/avatar4.jpg'
-import './images/avatar5.jpg'
-import './images/avatar6.jpg'
-import './images/avatar7.jpg'
+import avatar1 from './images/avatar1.jpg';
+import avatar2 from './images/avatar2.jpg';
+import avatar3 from './images/avatar3.jpg';
+import avatar4 from './images/avatar4.jpg';
+import avatar5 from './images/avatar5.jpg';
+import avatar6 from './images/avatar6.jpg';
+import avatar7 from './images/avatar7.jpg';
 import './images/trainer6.jpg'
 import './images/trainer1.jpg'
 import './images/trainer2.jpg'
@@ -247,35 +247,35 @@ export const testimonials = [
         name: "Diana Ayi",
         quote: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
         job: "Student",
-        avatar: './images/avatar1.jpg'
+        avatar: avatar1
     },
     {
         id: 2,
         name: "Daniel Vinyo",
         quote: "Harum quaerat hic consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum this and that odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
         job: "Software Egineer",
-        avatar: './images/avatar2.jpg'
+        avatar: avatar2
     },
     {
         id: 3,
         name: "Edem Quist",
         quote: "Quaerat hic praesentium consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
         job: "University Lecturer",
-        avatar: './images/avatar3.jpg'
+        avatar: avatar3
     },
     {
         id: 4,
         name: "Grace Lavoe",
         quote: "Cupiditate deleniti sint consequuntur molestias repellat ad quo tenetur vitae rem, labore quisquam? Atque, assumenda rerum odit harum quaerat hic praesentium quisquam quae, enim iste ipsam id repellat.",
         job: "Talking Parrot",
-        avatar: './images/avatar4.jpg'
+        avatar: avatar4
     },
     {
         id: 5,
         name: "Nana Yaa Dankwa",
         quote: "Maxime minima cumque sit amet consectetur adipisicing elit. Praesentium ipsam facere ea a laboriosam sed? Quod vel voluptates a! Maxime minima cumque aut? In expedita numquam consectetur non officia iusto.",
         job: "Pharmacist",
-        avatar: './images/avatar5.jpg'
+        avatar: avatar5
     }
 ]
 
