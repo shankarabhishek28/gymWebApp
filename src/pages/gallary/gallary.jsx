@@ -35,7 +35,7 @@ const Gallary = () => {
             
             <article key={index}>
               
-            {image == "" ? <h4>Loading...</h4> :<img src={image} alt={index + 1} /> }  
+            {!image ? <h4>Loading...</h4> :<img src={image} alt={index + 1} /> }  
             </article>
           ))}
         </div>
