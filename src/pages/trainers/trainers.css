@@ -29,9 +29,7 @@
     transition: var(--transition);
 
 }
-.trainer:nth-child(5) .trainer_socials{
-   margin-top: 2.5rem;
-}
+
 .trainer_socials:hover{
   
     background: var(--color-gray-500);
