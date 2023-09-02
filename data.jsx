@@ -6,12 +6,12 @@ import avatar4 from './images/avatar4.jpg';
 import avatar5 from './images/avatar5.jpg';
 import avatar6 from './images/avatar6.jpg';
 import avatar7 from './images/avatar7.jpg';
-import './images/trainer6.jpg'
-import './images/trainer1.jpg'
-import './images/trainer2.jpg'
-import './images/trainer3.jpg'
-import './images/trainer4.jpg'
-import './images/trainer5.jpg'
+import trainer6 from './images/trainer6.jpg'
+import trainer1 from './images/trainer1.jpg'
+import trainer2 from './images/trainer2.jpg'
+import trainer3 from './images/trainer3.jpg'
+import trainer4 from './images/trainer4.jpg'
+import trainer5 from './images/trainer5.jpg'
 
 
 
@@ -286,42 +286,42 @@ export const testimonials = [
 export const trainers = [
     {
         id: 1,
-        image: './images/trainer1.jpg',
+        image: trainer1,
         name: 'John Doe',
         job: 'Aerobic Trainer',
         socials: 'https://wa.me/+917817037017 '
     },
     {
         id: 2,
-        image: './images/trainer2.jpg',
+        image: trainer2,
         name: 'Daniel vinyo',
         job: 'Speed Trainer',
         socials: 'https://wa.me/+917817037017 '
     },
     {
         id: 3,
-        image: './images/trainer3.jpg',
+        image: trainer3,
         name: 'Edem Quist',
         job: 'Flexibility Trainer',
         socials: 'https://wa.me/+917817037017 '
     },
     {
         id: 4,
-        image: './images/trainer4.jpg',
+        image: trainer4,
         name: 'Shatta Wale',
         job: 'Body Composition Trainer',
         socials: 'https://wa.me/+917817037017 '
     },
     {
         id: 5,
-        image: './images/trainer5.jpg',
+        image: trainer5,
         name: 'Diana Ayi',
         job: 'Circuit Trainer',
         socials: 'https://wa.me/+917817037017 '
     },
     {
         id: 6,
-        image: './images/trainer6.jpg',
+        image: trainer6,
         name: 'Wayne Carter',
         job: 'Physical Intelligence Trainer',
         socials: 'https://wa.me/+917817037017 '
