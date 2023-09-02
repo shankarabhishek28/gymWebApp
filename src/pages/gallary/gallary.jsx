@@ -32,8 +32,10 @@ const Gallary = () => {
       <section className="gallery">
         <div className="container gallery_container">
           {resolvedImg.map((image, index) => (
+            
             <article key={index}>
-            {image === null ? <h4>Loading...</h4> :<img src={image} alt={index + 1} /> }  
+              
+            {image == "" ? <h4>Loading...</h4> :<img src={image} alt={index + 1} /> }  
             </article>
           ))}
         </div>
