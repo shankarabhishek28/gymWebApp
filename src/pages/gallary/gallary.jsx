@@ -2,12 +2,14 @@ import React, { useState, useEffect } from 'react';
 import './gallary.css';
 import Header from '../../components/Header';
 import HeaderImage from '../../../images/header_bg_3.jpg';
+import { Waveform } from '@uiball/loaders'
 
 const Gallary = () => {
   const galleryLength = 15;
   const [resolvedImg, setResolvedImg] = useState([]);
+  const [loading, setLoading] = useState(true);
 
-  
+
   useEffect(() => {
     const loadImagePaths = async () => {
       const images = [];
@@ -16,12 +18,12 @@ const Gallary = () => {
         images.push(imagePath.default);
       }
       setResolvedImg(images);
-      console.log(images)
+      setLoading(false)
     };
 
     loadImagePaths();
   }, []);
- 
+
 
   return (
     <>
@@ -31,13 +33,25 @@ const Gallary = () => {
       </Header>
       <section className="gallery">
         <div className="container gallery_container">
-          {resolvedImg.map((image, index) => (
-            
-            <article key={index}>
-              
-            {!image ? <h4>Loading...</h4> :<img src={image} alt={index + 1} /> }  
-            </article>
-          ))}
+          {loading ? (
+            // Display loading animation while images are loading
+
+            <div className='in_center'>
+              <Waveform
+                size={60}
+                lineWeight={3.5}
+                speed={1}
+                color="hsl(210,100%,50%)"
+              />
+            </div>
+
+          ) : (
+            resolvedImg.map((image, index) => (
+              <article key={index}>
+                <img src={image} alt={index + 1} />
+              </article>
+            ))
+          )}
         </div>
       </section>
     </>
