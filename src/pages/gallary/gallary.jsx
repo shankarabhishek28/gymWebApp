@@ -31,31 +31,32 @@ const Gallary = () => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quisquam,
         natus aperiam deleniti officia sapiente omnis enim cumque et adipisci, maxime aliquid molestiae repellendus repudiandae eveniet? Excepturi veniam doloremque iusto?
       </Header>
-      <section className="gallery">
-        <div className="container gallery_container">
-          {loading ? (
-            // Display loading animation while images are loading
-
-            <div className='in_center'>
-              <Waveform
-                size={60}
-                lineWeight={3.5}
-                speed={1}
-                color="hsl(210,100%,50%)"
-              />
-            </div>
-
-          ) : (
-            resolvedImg.map((image, index) => (
+  
+      {loading ? (
+        // Display loading animation while images are loading
+        <div className='in_center'>
+          <Waveform
+            size={60}
+            lineWeight={3.5}
+            speed={1}
+            color="hsl(210,100%,50%)"
+          />
+        </div>
+      ) : (
+        <section className="gallery">
+          <div className="container gallery_container">
+            {resolvedImg.map((image, index) => (
               <article key={index}>
                 <img src={image} alt={index + 1} />
               </article>
-            ))
-          )}
-        </div>
-      </section>
+            ))}
+          </div>
+        </section>
+      )}
     </>
   );
+  
+
 };
 
 export default Gallary;
