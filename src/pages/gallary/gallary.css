@@ -12,6 +12,11 @@
 .gallery_container article:hover {
     border-color: var(--color-gray-500);
 }
+.in_center{
+    margin-left: 35rem;
+    margin-top: -2rem;
+   
+  }
 @media screen and (max-width:1024px) {
     .gallery_container {
         margin-top: -5rem;
@@ -19,6 +24,12 @@
         grid-template-columns: 1fr 1fr ;
         gap: 2rem;
     }
+    .in_center{
+        
+        margin-left: 22rem;
+
+       
+      }
     
 }
 
@@ -28,10 +39,11 @@
         grid-template-columns: 1fr ;
         gap: 1rem;
     }
+    .in_center{
+        
+        margin-left: 12rem;
+
+       
+      }
     
-}
-.in_center{
-  margin-left: 35rem;
-  margin-top: -2rem;
- 
 }
