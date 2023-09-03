@@ -29,16 +29,16 @@ export const links = [
         path: '/about'
     },
     {
-        name: "Gallery",
-        path: '/gallery'
-    },
-    {
         name: "Plans",
         path: '/plans'
     },
     {
         name: "Trainers",
         path: '/trainers'
+    },
+    {
+        name: "Gallery",
+        path: '/gallery'
     },
     {
         name: "Contact",
